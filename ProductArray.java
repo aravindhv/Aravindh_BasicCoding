@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class ProductArray{
+public class ProductArray{
 	public static void main(String args[]){
 		Scanner scan = new Scanner(System.in);
 		System.out.print("Enter Number of elements to be entered : ");
@@ -17,7 +17,7 @@ class ProductArray{
 			System.out.print(i+" ");
 		System.out.println();
 	}
-	static int[] createNewArray(int []array, int product){
+	private static int[] createNewArray(int []array, int product){
 		int length = array.length;
 		int left[] = new int[length];
 		int right[] = new int[length];
